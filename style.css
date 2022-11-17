@@ -1,0 +1,43 @@
+#content-form > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100;
+    gap:15px;
+    
+}
+
+#root{
+    max-width: 1350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.send{
+    color: black;
+    background-color: aqua;
+    border: 0px;
+    padding: 0.75rem;
+    border-radius: 10px;
+}
+
+.send:hover{
+    background-color: blue;
+    color:white;
+}
+
+.inputText{
+    border: 1px aqua solid;
+    padding: 0.60rem;
+    border-radius: 10px;
+}
+
+#intestazione{
+    
+    height: 50px;
+}
+
